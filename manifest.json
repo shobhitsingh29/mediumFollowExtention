@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "name": "one click Follow All",
+  "description": "click on extension to follow all medium  users in current tab",
+  "version": "1.0",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "popup.js"
+  },
+  "action": { }
+}
